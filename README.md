@@ -15,35 +15,9 @@ Pathfinding Visualizer is a web application built with React.js that demonstrate
 - **React.js**: Frontend framework for building the user interface.
 - **CSS**: Styling for the grid and UI elements.
 
-## Installation
+## Live Demo
 
-Follow these steps to run the application locally:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/pathfinding-visualizer.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd pathfinding-visualizer
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm start
-   ```
-
-5. Open your browser and navigate to `http://localhost:3000`.
+Check out the live version of the application here: [Pathfinding Visualizer](https://chazwilson01.github.io/PathfindingApp/)
 
 ## How to Use
 
@@ -93,6 +67,6 @@ A\* is a heuristic-based algorithm that combines the cost-so-far (like Dijkstra'
 
 Feel free to reach out with feedback or questions:
 
-- **Email**: [wilsonc98@uww.edu](mailto\:wilsonc98@uww.edu)
+- **Email**: [wilsonc98@uww.edu](mailto:wilsonc98@uww.edu)
 - **GitHub**: chazwilson01
 
