@@ -1,0 +1,58 @@
+.navbar {
+    background: black; /* Set background to black */
+    color: white;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+    align-items: center;
+    gap: 15px; /* Add spacing between items */
+    width: 100%;
+    position: relative;
+}
+
+.navbar .navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar .nav-item .btn,
+.navbar .nav-item .form-select {
+    min-width: 150px; /* Ensure all buttons and dropdown have the same minimum width */
+    height: 38px; /* Ensure all elements have the same height */
+    padding: 5px 10px; /* Add padding to match button height */
+}
+
+.navbar .nav-item .btn {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.navbar .nav-item .btn:hover {
+    transform: scale(1.05);
+}
+
+.navbar .nav-item .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
