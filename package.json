@@ -1,7 +1,7 @@
 {
   "name": "pathfinding-app",
   "version": "0.1.0",
-  "homepage": "https://chazwilson01.github.io/Pathfinding-App",
+  "homepage": "https://chazwilson01.github.io/PathfindingApp",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.8",
