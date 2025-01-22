@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Pathfinding Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Pathfinding Visualizer is a web application built with React.js that demonstrates the functionality of popular pathfinding algorithms, including Dijkstra's Algorithm and A\*. It provides an interactive and visual way to understand how these algorithms work to find the shortest path between two points in a grid.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Interactive Grid**: Create walls, set a start point, and set an end point.
+- **Algorithm Visualization**: Watch step-by-step animations of Dijkstra's Algorithm and A\* in action.
+- **Reset Functionality**: Easily reset the grid to start a new visualization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**: Frontend framework for building the user interface.
+- **CSS**: Styling for the grid and UI elements.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to run the application locally:
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/yourusername/pathfinding-visualizer.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd pathfinding-visualizer
+   ```
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open your browser and navigate to `http://localhost:3000`.
 
-## Learn More
+## How to Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Set Start and End Points**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - Drag and move the start and end node.
 
-### Code Splitting
+2. **Add Walls**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   - Click and drag your mouse over cells to create walls that block the path.
 
-### Analyzing the Bundle Size
+3. **Choose an Algorithm**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   - Select either Dijkstra's Algorithm or A\* from the control panel.
 
-### Making a Progressive Web App
+4. **Visualize**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   - Click the "Visualize" button to watch the algorithm find the shortest path.
 
-### Advanced Configuration
+5. **Reset**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   - Click the "Clear Board" button to clear the grid and start over.
 
-### Deployment
+## Algorithms Explained
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Dijkstra's Algorithm
 
-### `npm run build` fails to minify
+Dijkstra's Algorithm guarantees the shortest path by exploring all possible paths systematically, assigning a cost to each cell, and updating the cost as it traverses the grid.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### A\* Algorithm
+
+A\* is a heuristic-based algorithm that combines the cost-so-far (like Dijkstra's) with an estimated cost to the goal, making it faster and more efficient in many cases.
+
+## Future Improvements
+
+- Add more algorithms like BFS and DFS.
+- Support weighted grids.
+- Mobile responsiveness.
+- Save and load grid configurations.
+
+## Acknowledgements
+
+- Inspired by similar pathfinding visualizer projects.
+- Special thanks to freeCodeCamp and other online resources for algorithm explanations.
+
+## Contact
+
+Feel free to reach out with feedback or questions:
+
+- **Email**: [wilsonc98@uww.edu](mailto\:wilsonc98@uww.edu)
+- **GitHub**: chazwilson01
+
